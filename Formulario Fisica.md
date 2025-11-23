@@ -27,6 +27,17 @@
 - Prodotto scalare: $ \vec{a} \cdot \vec{b} = ab \cos \theta $
 - Prodotto vettoriale: $ |\vec{a} \times \vec{b}| = ab \sin \theta $
 
+### Trigonometria
+
+	| in terms of       | $\sin \theta$         | $\csc \theta$         | $\cos \theta$         | $\sec \theta$         | $\tan \theta$         | $\cot \theta$         |
+|-------------------|------------------------|------------------------|------------------------|------------------------|------------------------|------------------------|
+| $\sin \theta =$  | $\sin \theta$         | $\frac{1}{\csc \theta}$ | $\pm\sqrt{1 - \cos^2 \theta}$ | $\pm\frac{\sqrt{\sec^2 \theta - 1}}{\sec \theta}$ | $\pm\frac{\tan \theta}{\sqrt{1 + \tan^2 \theta}}$ | $\pm\frac{1}{\sqrt{1 + \cot^2 \theta}}$ |
+| $\csc \theta =$  | $\frac{1}{\sin \theta}$ | $\csc \theta$         | $\pm\frac{1}{\sqrt{1 - \cos^2 \theta}}$ | $\pm\frac{\sec \theta}{\sqrt{\sec^2 \theta - 1}}$ | $\pm\frac{\sqrt{1 + \tan^2 \theta}}{\tan \theta}$ | $\pm\sqrt{1 + \cot^2 \theta}$ |
+| $\cos \theta =$  | $\pm\sqrt{1 - \sin^2 \theta}$ | $\pm\frac{\sqrt{\csc^2 \theta - 1}}{\csc \theta}$ | $\cos \theta$         | $\frac{1}{\sec \theta}$ | $\pm\frac{1}{\sqrt{1 + \tan^2 \theta}}$ | $\pm\frac{\cot \theta}{\sqrt{1 + \cot^2 \theta}}$ |
+| $\sec \theta =$  | $\pm\frac{1}{\sqrt{1 - \sin^2 \theta}}$ | $\pm\frac{\csc \theta}{\sqrt{\csc^2 \theta - 1}}$ | $\frac{1}{\cos \theta}$ | $\sec \theta$         | $\pm\sqrt{1 + \tan^2 \theta}$ | $\pm\frac{\sqrt{1 + \cot^2 \theta}}{\cot \theta}$ |
+| $\tan \theta =$  | $\pm\frac{\sin \theta}{\sqrt{1 - \sin^2 \theta}}$ | $\pm\frac{1}{\sqrt{\csc^2 \theta - 1}}$ | $\pm\frac{\sqrt{1 - \cos^2 \theta}}{\cos \theta}$ | $\pm\sqrt{\sec^2 \theta - 1}$ | $\tan \theta$         | $\frac{1}{\cot \theta}$ |
+| $\cot \theta =$  | $\pm\frac{\sqrt{1 - \sin^2 \theta}}{\sin \theta}$ | $\pm\sqrt{\csc^2 \theta - 1}$ | $\pm\frac{\cos \theta}{\sqrt{1 - \cos^2 \theta}}$ | $\pm\frac{1}{\sqrt{\sec^2 \theta - 1}}$ | $\frac{1}{\tan \theta}$ | $\cot \theta$ |
+
 ------
 
 # Fisica – Formulario
@@ -38,7 +49,6 @@
 ### Moto rettilineo uniforme (MRU)
 
 - Legge oraria: $ x(t) = x_0 + v·t $
-- Velocità: costante
 
 ### Moto rettilineo uniformemente accelerato (MRUA)
 
@@ -48,15 +58,39 @@
 
 ### Moto Parabolico
 
+È la combinazione di un moto rettilineo uniforme in orizzontale e un moto rettilineo uniformemente accelerato in verticale. 
+
 **Equazione del moto**:
 $$
 \begin{cases}x(t) = v_0·\cos\theta·t \\ y(t) = v_0·\sin\theta·t - \frac 1 2 gt^2\end{cases}
 $$
 **Equazione della gittata**:
+
+
 $$
-y(x) = x\tan\theta- {g \over 2(v_0\cos\theta)^2}
+y(x) = x\tan\theta- {g \over 2(v_0\cos\theta)^2}x^2
 $$
 
+#### Gittata massima
+
+$$
+x_{max}={v_0^2\sin(2\theta)\over g}
+$$
+
+Da notare che la gittata dipende strettamente dall'angolo $\theta$. La gittata massima assoluta si ha quando $\theta = 45°$.
+
+#### Massima altezza 
+
+- Tempo di massima altezza:
+  $$
+  t_{max}={v_0\sin\theta\over g}
+  $$
+
+- Ascissa di massima altezza (quando il punto cambia direzione sull'asse delle ordinate):
+  $$
+  
+  $$
+  
 
 ### Moto circolare
 
